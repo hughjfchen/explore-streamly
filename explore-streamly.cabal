@@ -22,6 +22,7 @@ source-repository head
 
 common common-options
   build-depends:       base ^>= 4.13.0.0
+                     , streamly ^>= 0.7.2
   
   ghc-options:         -Wall
                        -Wcompat

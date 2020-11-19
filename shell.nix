@@ -3,7 +3,7 @@
   defaultPlatformProject.explore-streamly.shellFor {
     # Include only the *local* packages of your project.
     packages = ps: with ps; [
-      #pkga
+      explore-streamly
       #pkgb
     ];
 
