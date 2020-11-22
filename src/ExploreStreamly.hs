@@ -11,4 +11,14 @@ module ExploreStreamly
        ) where
 
 someFunc :: IO ()
-someFunc = putStrLn ("someFunc" :: String)
+someFunc = do
+  putStrLn ("someFunc" :: String)
+  putStrLn "Wow"
+
+-- >>> someFunc
+-- someFunc
+-- Wow
+
+-- >>> putStrLn "This is a test for dante evaluation mode."-- This is a test for dante evaluation mode.
+
+-- >>>
