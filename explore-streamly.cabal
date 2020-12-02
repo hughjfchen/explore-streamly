@@ -25,6 +25,7 @@ common common-options
                      , containers
                      , network
                      , random
+                     , mtl
                      , streamly ^>= 0.7.2
   
   ghc-options:         -Wall
